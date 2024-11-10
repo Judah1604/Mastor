@@ -1,0 +1,16 @@
+.navbar .nav {
+  gap: 35px;
+}
+.navbar .nav a {
+  text-decoration: none;
+  color: #282930;
+  opacity: 0.8;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.navbar .nav a:hover {
+  opacity: 1;
+}
+.navbar .nav a.active {
+  opacity: 1;
+}/*# sourceMappingURL=nav.css.map */

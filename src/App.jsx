@@ -1,12 +1,13 @@
-import './Styles/base/base.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Styles/base/base.css";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-
-  return (
-    <>
-      tt <h1>App</h1>
-    </>
-  )
+	return (
+		<>
+			<Navbar />
+		</>
+	);
 }
 
-export default App
+export default App;
