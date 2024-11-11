@@ -8,14 +8,50 @@
 body {
     font-family: "Manrope", serif;
     font-weight: 500;
-    background-color: #ebebeb;
+    background-color: #f0f5f3;
+    color: $dark-gray;
 }
 
 .logo {
     font-weight: 800;
     color: $dark-green;
+
+    span {
+        color: $gray;
+    }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 700;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-green {
+    background-color: $dark-green;
+    color: white;
+
+    &:hover {
+        background-color: $hover-green;
+        color: white;
+    }
+}
+
+.btn-outline {
+    background-color: white;
+    border: 1px solid rgb(184, 184, 184);
+    color: $dark-green !important;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid rgb(184, 184, 184);
+        color: $dark-green !important;
+    }
 }

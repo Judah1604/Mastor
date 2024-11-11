@@ -6,14 +6,47 @@
 body {
   font-family: "Manrope", serif;
   font-weight: 500;
-  background-color: #ebebeb;
+  background-color: #f0f5f3;
+  color: #282930;
 }
 
 .logo {
   font-weight: 800;
   color: #142F32;
 }
+.logo span {
+  color: #777C90;
+}
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-green {
+  background-color: #142F32;
+  color: white;
+}
+.btn-green:hover {
+  background-color: #275b61;
+  color: white;
+}
+
+.btn-outline {
+  background-color: white;
+  border: 1px solid rgb(184, 184, 184);
+  color: #142F32 !important;
+}
+.btn-outline:hover {
+  background-color: white;
+  border: 1px solid rgb(184, 184, 184);
+  color: #142F32 !important;
 }/*# sourceMappingURL=base.css.map */

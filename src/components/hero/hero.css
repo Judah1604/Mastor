@@ -1,0 +1,25 @@
+.hero {
+  padding-bottom: 100px;
+}
+.hero h1 {
+  font-size: 3.5em;
+  margin-top: 60px;
+  line-height: 1.3;
+}
+.hero h1 span {
+  color: #142F32;
+}
+.hero .btns {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.hero .row {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.hero .row > * {
+  text-align: center;
+}/*# sourceMappingURL=hero.css.map */
